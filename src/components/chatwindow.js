@@ -9,16 +9,13 @@ function ChatWindow() {
                 <div className='chats'>
                     <TextBubble 
                         msgType='rxTextBubble'
-                    />
-                    <TextBubble 
-                        msgType='rxTextBubble'
-                    />
-                    <TextBubble 
-                        msgType='txTextBubble'
+                        msg='chats bubble will grow along with text'
                     />
                     <TextBubble 
                         msgType='txTextBubble'
+                        msg='chats are really some way bi like that, it will be and awesome looking ui after im done with chat'
                     />
+
                 </div>
                 <TextBox />
             </div>

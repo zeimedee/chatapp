@@ -4,7 +4,7 @@ function TextBubble(props) {
     return (
         <div className='bubble'>
             <div className={props.msgType}>
-
+                    {props.msg}
             </div>
             
         </div>
