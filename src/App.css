@@ -1,38 +1,70 @@
-.App {
-  text-align: center;
+body{
+  box-sizing:border-box ;
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.view{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.chatbox{
+  height: 500px;
+  width: 500px;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.chats{
+  display: flex;
+  flex-direction: column;
+  width: 99%;
+  height: 90% ;
+  background-color: lightblue;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.textbox{
+  height: 10%;
+  width: 99%;
+  border: 1px solid blueviolet;
+  bottom: 0;
+  display: flex;
+  flex-direction: row;
 }
+
+.textbox > textarea{
+  height: 85%;
+  width: 90%;
+  outline: none;
+  resize: none;
+}
+
+.bubble{
+  margin: 10px;
+  position: relative;
+  margin-top: 50px;
+}
+
+.rxTextBubble{
+  position: absolute;
+  left: 20px;
+  height: 50px;
+  width: 200px;
+  border-radius: 10px;
+  background-color: rgb(53, 120, 207);
+}
+
+.txTextBubble{
+  position: absolute;
+  right: 20px;
+  height: 50px;
+  width: 200px;
+  border-radius: 10px;
+  background-color: lightseagreen;
+
+}
+
