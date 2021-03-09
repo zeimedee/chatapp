@@ -54,7 +54,8 @@ body{
   position: absolute;
   left: 20px;
   height: fit-content;
-  width: 200px;
+  width: fit-content;
+  max-width: 200px;
   border-radius: 5px;
   padding: 2px;
   overflow-wrap: break-word ;
@@ -65,7 +66,8 @@ body{
   position: absolute;
   right: 20px;
   height: fit-content;
-  width: 200px;
+  width: fit-content;
+  max-width: 200px;
   border-radius: 5px;
   padding: 2px;
   overflow-wrap: break-word ;
